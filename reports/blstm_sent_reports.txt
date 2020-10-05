@@ -1,0 +1,22 @@
+blstm_sent_results
+*HYPER-PARAMETERS*
+BATCH_SIZE: 64, OPTIMIZER: adam
+*Confusion Matrix*
+[[4221  778]
+ [ 589 4412]]
+*Classification Report*
+              precision    recall  f1-score   support
+
+         neg       0.88      0.84      0.86      4999
+         pos       0.85      0.88      0.87      5001
+
+    accuracy                           0.86     10000
+   macro avg       0.86      0.86      0.86     10000
+weighted avg       0.86      0.86      0.86     10000
+
+Accuracy: 0.8633
+False positive rate: 0.15563112622524505
+False negative rate: 0.11777644471105779
+Recall: 0.8822235552889423
+Precision: 0.8500963391136801
+F1 score: 0.8658620351290354

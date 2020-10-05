@@ -1,0 +1,22 @@
+han_sent_results
+*HYPER-PARAMETERS*
+BATCH_SIZE: 64, OPTIMIZER: adam
+*Confusion Matrix*
+[[4462  523]
+ [ 459 4556]]
+*Classification Report*
+              precision    recall  f1-score   support
+
+         neg       0.91      0.90      0.90      4985
+         pos       0.90      0.91      0.90      5015
+
+    accuracy                           0.90     10000
+   macro avg       0.90      0.90      0.90     10000
+weighted avg       0.90      0.90      0.90     10000
+
+Accuracy: 0.9018
+False positive rate: 0.1049147442326981
+False negative rate: 0.09152542372881356
+Recall: 0.9084745762711864
+Precision: 0.8970269738137429
+F1 score: 0.9027144838517932
